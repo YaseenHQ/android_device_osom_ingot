@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ingot device
 $(call inherit-product, device/osom/ingot/device.mk)
 
+# Dolby Atmos
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
